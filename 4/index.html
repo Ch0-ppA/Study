@@ -7,6 +7,150 @@
     <title>Главная страница сайта гостиницы для котов и кошек «Котейка»</title>
 </head>
 <body>
-    
+<!-- Шапка -->
+   <header class="main-header">
+<nav class="main-nav">
+    <a href="#" class="logo">
+        <img src="img/logo.svg" alt="logo" width="63" height="52">
+    </a>
+    <ul class="site-navigation">
+        <li class="site-navigation-item">
+            <a href="#">Почему мы?</a>
+        </li>
+        <li class="site-navigation-item">
+            <a href="#">Номера</a>
+        </li>
+        <li class="site-navigation-item">
+            <a href="#">Отзывы</a>
+        </li>
+        <li class="site-navigation-item">
+            <a href="#">Как нас найти</a>
+        </li>
+    </ul>
+</nav>
+   </header>
+<!-- Основное -->
+   <main>
+       <h1 class="visually-hidden">Гостиница для котов и кошек "Котейка"</h1>
+        <!--! Promo -->
+<section class="promo">
+    <h2>Котейка</h2>
+    <p>Санкт-Петербург</p>
+    <p>Уютная гостиница дл котов и кошек</p>
+    <a href="catalog.html">Забронировать</a>
+    <img src="img/photo-promo-1.jpg" width="1366" height="504" alt="Уютная гостиница длякотов и кошек">
+</section>
+
+        <!-- !Features -->
+<section class="features">
+    <h2>Почему мы?</h2>
+    <ul class="features-list">
+        <li class="features-lists-item">
+            <h3>Комфортная температура</h3>
+            <p>
+Во всех номерах поддерживается комфортная температура в пределах 23 - 25 градусов. 
+В каждом номере можно дополнительно отрегулировать температуру.
+            </p>
+        </li>
+        <li class="features-lists-item">
+            <h3>Видеонаблюдение</h3>
+            <p>
+Мы предоставляем доступ в нашу систему. Вы сможете следить за своим питомцем со своего смартфона 
+или компьютера.
+            </p>
+        </li>
+        <li class="features-lists-item">
+            <h3>Услуги Зоотакси</h3>
+            <p>
+Мы приедем за вашим питомцем в любой район Санкт-Петербурга.
+            </p>
+        </li>
+        <li class="features-lists-item">
+            <h3>Сбалансированное питание</h3>
+            <p>
+Вы можете привезти свой корм или доверить рацион своего питомца нашим профессионалам.
+            </p>
+        </li>
+        <li class="features-lists-item">
+            <h3>Ежедневные прогулки</h3>
+            <p>
+По вашему желанию мы выгуливаем вашего питомца два раза в день на специализированной закрытой территории.
+            </p>
+        </li>
+        <li class="features-lists-item">
+            <h3>Лучшие ветеринары</h3>
+            <p>
+В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости.
+            </p>
+        </li>
+    </ul>
+</section>
+        <!--! Бронь -->
+<section class="room-reservation">
+    <h2>Номера</h2>
+    <!-- Описание -->
+    <section class="room-reservation-description">
+        <h3>Эконом плюс</h3>
+        <dl>
+            <dd>Площадь - </dd>
+            <dt>0,90 м<sup>2</sup></dt>
+            <dd>Размеры (ШхГхВ)</dd>
+            <dt>90х100х180</dt>
+            <dd>Цена за сутки</dd>
+            <dt>200 ₽</dt>
+        </dl>
+    </section>
+    <!-- Форма -->
+    <section class="room-reservation-form">
+        <h3>Забронировать номер</h3>
+        <form id="reservation-form" action="#" method="post">
+
+            <label for="reservation-form-name" class="visually-hidden">Ваше имя</label>
+            <input type="text" name="reservation-form-name" id="reservation-form-name" placeholder="Ваше имя">
+
+            <label for="reservation-form-pet" class="visually-hidden">Имя питомца</label>
+            <input type="text" name="reservation-form-pet" id="reservation-form-pet" placeholder="Имя питомца">
+
+            <label for="reservation-form-phone" class="visually-hidden">Телефон</label>
+            <input type="text" name="reservation-form-phone" id="reservation-form-phone" placeholder="Телефон">
+
+            <label for="reservation-form-email" class="visually-hidden">E-mail</label>
+            <input type="text" name="reservation-form-email" id="reservation-form-email" placeholder="E-mail">
+
+        <p>
+            <label for="reservation-form-begin-date">Дата заезда с</label>
+            <input type="text" name="reservation-form-begin-date" id="reservation-form-begin-date" placeholder="26.01.2020">
+            
+            <label for="reservation-form-end-date">по</label>
+            <input type="text" name="reservation-form-end-date" id="reservation-form-end-date" placeholder="26.02.2020">
+        </p>
+            <button type="submit">Отправить заявку</button>
+        </form>
+    </section>
+</section>
+<!--! Отзывы -->
+<section class="reviews">
+    <h2>Отзывы</h2>
+    <ul class="review-list">
+        <li class="revew-list-item"></li>
+        <li class="revew-list-item"></li>
+        <li class="revew-list-item"></li>
+    </ul>
+</section>
+   </main>
+<!-- Подвал -->
+   <footer class="main-footer">
+
+<section class="contacts">
+    <h2>Как нас найти</h2>
+
+</section>
+
+<section class="footer-nav">
+    <h2 class="visually-hidden">Дополнительная навигация по сайту</h2>
+</section>
+
+   </footer> 
+
 </body>
 </html>
