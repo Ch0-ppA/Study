@@ -1,0 +1,26 @@
+.logo {
+margin-top: 124px;
+margin-left: 775px;
+margin-right: 775px;
+}
+body{
+    width: 1920px;
+}
+
+.header-nav{
+    display: flex;
+    width: 1169px;
+    margin-left: 375px;
+    margin-right: 376px;
+    margin-top: 70px;
+}
+
+.header-nav>li{
+    display:flex;
+    justify-self: end;
+    margin-left: 50px;
+}
+
+.header-nav>li>a {
+    font-style: normal;
+}
