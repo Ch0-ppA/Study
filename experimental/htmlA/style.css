@@ -1,0 +1,26 @@
+.comment-field{
+    filter: drop-shadow(2px 2px 2px black   );    
+    text-overflow: ellipsis;
+    width: 250px;
+    height: 300px;
+    
+}
+
+.button {
+    width: 150px;
+    height: 100px;
+    background-image: linear-gradient(to top right,red 50%,purple 50%);
+    filter: drop-shadow(2px 2px 2px black   ); 
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 700;   
+
+}
+.button:active {
+    filter:none;
+    box-shadow: inset 1px 1px 1px 2px;
+}
+.comment-inner{
+    background-image: linear-gradient(green,blue,transparent);  
+    
+}
