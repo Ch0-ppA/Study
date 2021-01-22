@@ -1,0 +1,22 @@
+{
+  "name": "study-1",
+  "version": "1.0.0",
+  "description": "New",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ch0-ppA/Study.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ch0-ppA/Study/issues"
+  },
+  "homepage": "https://github.com/Ch0-ppA/Study#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
